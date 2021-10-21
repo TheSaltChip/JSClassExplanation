@@ -153,6 +153,7 @@ export class ClassName{
 
 #### Inheritance
 As far as I know it is basically the same as java
+
 Only thing is that before you use this. you need to
 call super()
 ```js
