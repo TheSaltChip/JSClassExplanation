@@ -5,9 +5,9 @@
 <li>Keywords</li>
 <li>Import structure</li>
 <li>defer vs type="module"</li>
-<li>private and public variables and functions</li>
-<li>inheritance</li>
-<li>some more examples</li>
+<li>Private and public variables and functions</li>
+<li>Inheritance</li>
+<li>More examples</li>
 </ul>
 
 ---
@@ -48,16 +48,18 @@ export default class {
 ```
 ---
 Note that you do not need to use a name, you can if you want
-<br>
+
 When importing you do this
+
 ```js
 import Name from "here/is/A.js";
 ```
-note that you do not have {} around Name, this is important. If you have {}
+
+Note that you do not have {} around Name, this is important. If you have {}
 around Name, you are telling js to look for a named class, that is not default,
 with the name "Name" in A.js
-<br><br>
-in that example Name is the name you have given the default class that was in A.js
+
+In that example Name is the name you have given the default class that was in A.js
 and can now use Name in this document as you wish
 
 ---
@@ -73,7 +75,7 @@ default class
 import Name from "location/of/where/the/default/class/is.js"
 ```
 ---
-whole document as a variable
+Whole document as a variable
 ```js
 import * as VarName from "here/is/a/document/with/loads/of/stuff.js"
 ```
@@ -92,10 +94,14 @@ is allowed unless the script that is used by the html page has type="module"
 You do not need to load all the exported classes in the HTML file only the
 main script that uses all the classes (I am not 100% satisfied with the wording here)
 
+defer is used when you want to load the script in parallel with the html document
+type="module" has defer by standard. But as previously stated, type="module" is needed
+when you are using export on classes
+
 ---
 ---
 
-#### private and public variable and functions(methods)
+#### Private and public variable and functions(methods)
 
 When you are referencing class functions and variables you always use "this."
 The only time you do not use it is when you are declaring private variable or
