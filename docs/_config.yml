@@ -31,7 +31,7 @@ twitter_username: TheSaltChip
 github_username:  TheSaltChip
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
