@@ -13,7 +13,7 @@
 ---
 ### Keywords
 
-##### export:
+#### export:
 
 This is an example of what you would call a "private" class
 It can only be used in the document where it has been declared
