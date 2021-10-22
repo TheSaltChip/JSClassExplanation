@@ -21,12 +21,19 @@
 ### export:
 
 This is an example of what you would call a "private" class It can only be used in the document where it has been
-declared
+declared unless you load it in the html file
 
 ```js
 class ClassName {
 
 }
+```
+
+Like this, which in my honest opinion is dumb when you can use modules. This will become ugly
+when you are dealing with loads of classes
+
+```html
+<script src="here/is/the/Class.js"></script>
 ```
 
 ---
@@ -103,7 +110,8 @@ import * as VarName from "here/is/a/document/with/loads/of/stuff.js"
 
 ### defer vs type="module"
 
-A **really** important thing to know is that **none** of the examples above is allowed unless the script that is used by
+A **really** important thing to know is that **none** of the examples above
+that use export is allowed unless the script that is used by
 the html page has type="module"
 
 ```html
