@@ -16,9 +16,9 @@
 
 ---
 
-### Keywords
+## Keywords
 
-#### export:
+### export:
 
 This is an example of what you would call a "private" class It can only be used in the document where it has been
 declared
@@ -41,7 +41,7 @@ export class ClassName {
 ---
 ---
 
-#### default:
+### default:
 
 If you have a single class in a file or a default class for a file you can use the keyword
 
@@ -76,7 +76,7 @@ as you wish
 ---
 ---
 
-#### import structure
+### import structure
 
 When importing classes
 
@@ -101,7 +101,7 @@ import * as VarName from "here/is/a/document/with/loads/of/stuff.js"
 ---
 ---
 
-#### defer vs type="module"
+### defer vs type="module"
 
 A **really** important thing to know is that **none** of the examples above is allowed unless the script that is used by
 the html page has type="module"
@@ -120,7 +120,7 @@ But as previously stated, type="module" is needed when you are using export on c
 ---
 ---
 
-#### Private and public variable and functions(methods)
+### Private and public variable and functions(methods)
 
 When you are referencing class functions and variables you always use "this."
 The only time you do not use it is when you are declaring private variable or are creating local variables.
@@ -169,7 +169,7 @@ export class ClassName {
 ---
 ---
 
-#### Inheritance
+### Inheritance
 
 As far as I know it is basically the same as java
 
@@ -197,7 +197,7 @@ export class B extends A {
 ---
 ---
 
-#### jsDoc
+### jsDoc
 
 jsDoc is to js what javaDoc is to java. You use it to describe classes and the methods within, and decide what types the
 parameters could be.
@@ -237,7 +237,7 @@ Example: {Number | String} means that you expect the parameter to be either a St
 ---
 ---
 
-#### Parameters
+### Parameters
 
 There is a couple of things you can do with the parameters of a function or class
 
@@ -304,7 +304,7 @@ have to manually tell js which parameter you want to change or give value to
 ---
 ---
 
-Some more examples
+### Some more examples
 
 ```js
 //File 1 {A.js}
