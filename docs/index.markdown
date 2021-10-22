@@ -33,7 +33,7 @@ Like this, which in my honest opinion is dumb when you can use modules. This wil
 when you are dealing with loads of classes
 
 ```html
-<script src="here/is/the/Class.js"></script>
+<script src="here/is/the/Class.js" defer></script>
 ```
 
 ---
